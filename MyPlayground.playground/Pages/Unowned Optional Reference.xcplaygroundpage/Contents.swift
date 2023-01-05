@@ -20,13 +20,17 @@ class Course {
     }
 }
 
-let department = Department(name: "Horticulture")
+var department: Department? = Department(name: "Horticulture")
 
-let intro = Course(name: "Survey of Plants", in: department)
-let intermediate = Course(name: "Growing Common Herbs", in: department)
-let advanced = Course(name: "Caring for Tropical Plants", in: department)
+let intro = Course(name: "Survey of Plants", in: department!)
+let intermediate = Course(name: "Growing Common Herbs", in: department!)
+let advanced = Course(name: "Caring for Tropical Plants", in: department!)
 
 intro.nextCourse = intermediate
 intermediate.nextCourse = advanced
 
-department.courses = [intro, intermediate, advanced]
+department!.courses = [intro, intermediate, advanced]
+
+department = nil
+// What will be printed?
+print(intermediate.department)
