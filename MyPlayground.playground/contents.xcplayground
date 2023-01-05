@@ -10,6 +10,5 @@
         <page name='Capture List '/>
         <page name='Strong Reference Cycles for Closures'/>
         <page name='Memory Safety'/>
-        <page name='Access Control'/>
     </pages>
 </playground>
