@@ -11,5 +11,6 @@
         <page name='Strong Reference Cycles for Closures'/>
         <page name='Memory Safety'/>
         <page name='Access Control'/>
+        <page name='Capture List Struct'/>
     </pages>
 </playground>
