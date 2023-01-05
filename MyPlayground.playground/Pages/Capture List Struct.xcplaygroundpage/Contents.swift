@@ -35,7 +35,7 @@ let closure3 = { [paragraph] in
     // en este caso, se pasa la instancia de la clase HTMLElement, que es paragraph,
     // o sea que es un valor por referencia, por lo que va a ser print del ultimo valor
     // que se le haya asignado a paragraph.name antes de llamar al closure3()
-    print(paragraph.name) //print: Jose
+    print(paragraph.name) //-> print: Jose
 }
 
 paragraph.name = "Jose"
@@ -45,5 +45,5 @@ closure2() // Enrique
 closure3() // Jose
 
 // What will be printed and why?
-print(paragraph.name) // Jose
+print(paragraph.name) //-> print: Jose
 // su actual valor es Jose, ya que fue reasignado en la linea 41
