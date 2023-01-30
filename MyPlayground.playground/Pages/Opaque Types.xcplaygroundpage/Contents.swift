@@ -57,5 +57,4 @@ let fighter2: TIEAdvanced = launchImperialFighter()
  We don’t need to worry about Self or associated type requirements, because the compiler knows exactly what type is inside.
  We get to change our minds in the future whenever we need to.
  We don’t expose private internal types to the outside world.
-
  */

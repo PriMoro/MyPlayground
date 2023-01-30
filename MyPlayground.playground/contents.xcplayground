@@ -14,5 +14,6 @@
         <page name='Capture List Struct'/>
         <page name='Memberwise Initializers'/>
         <page name='Opaque Types'/>
+        <page name='Type Casting'/>
     </pages>
 </playground>
