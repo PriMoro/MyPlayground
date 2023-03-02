@@ -15,5 +15,8 @@
         <page name='Memberwise Initializers'/>
         <page name='Opaque Types'/>
         <page name='Type Casting'/>
+        <page name='Generics'/>
+        <page name='Result Builders'/>
+        <page name='Advanced Operators'/>
     </pages>
 </playground>
